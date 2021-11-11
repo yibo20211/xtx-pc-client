@@ -135,3 +135,67 @@
     text-align: center;
     line-height: 15px;
 }
+
+/* ---------------------宣传服务模块 */
+.xtx-service {
+    height: 174px;
+    background-color: #333;
+}
+
+.xtx-service .container {
+    width: 1393px;
+    height: 173px;
+    border-bottom: 1px solid #434343;
+}
+
+.xtx-service .container a {
+    float: left;
+    width: 33.33%;
+    height: 173px;
+    text-align: center;
+    line-height: 173px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.xtx-service .container a::before {
+    display: inline-block;
+    content: '';
+    width: 58px;
+    height: 58px;
+    margin-right: 19px;
+    vertical-align: middle;
+    background: url('../images/sprites.png');
+}
+
+.xtx-service .container a:nth-child(2)::before {
+    background-position: -130px 0px;
+}
+
+.xtx-service .container a:nth-child(3)::before {
+    background-position: -65px 0px;
+}
+
+/* ----------------版权信息模块 */
+
+.xtx-copyright {
+    height: 168px;
+    background-color: #333;
+}
+
+.xtx-copyright .container {
+    height: 168px;
+    padding-top: 41px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.xtx-copyright .container a {
+    color: #999;
+}
+
+.xtx-copyright .container p:first-child {
+    height: 45px;
+}
